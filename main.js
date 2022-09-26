@@ -1,4 +1,4 @@
-const url = 'http://api.mediastack.com/v1/news?access_key=896876a59fde662b4a62015acb4355e1&sources=en,es,-ar.'
+const url = 'https://api.mediastack.com/v1/news?access_key=896876a59fde662b4a62015acb4355e1&sources=en,es,-ar.'
 const form = document.getElementById('containeer-1')
 const btn = document.getElementById('btn')
 const general= document.getElementById('general')
