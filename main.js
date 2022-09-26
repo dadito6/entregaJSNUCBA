@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', async () =>{
     let info = [ ]
 
     try{
-        if(localStorage.getItem('Data') !== "undefined"){
+        if(localStorage.getItem('Data')){
         const infor = JSON.parse(localStorage.getItem('Data'))
         console.log(infor)
         info = infor[0]
